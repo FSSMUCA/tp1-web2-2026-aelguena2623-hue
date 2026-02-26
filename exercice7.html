@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 7</title>
+</head>
+<body>
+    <h1>Exercice 7 : Moyenne des notes</h1>
+    <script>
+        let notes = [15, 12, 18, 10];
+        let somme = notes[0] + notes[1] + notes[2] + notes[3];
+        let moyenne = somme / notes.length;
+
+        console.log("Notes :", notes);
+        console.log("Somme totale :", somme);
+        console.log("Moyenne générale :", moyenne);
+
+        if (moyenne >= 10) {
+            console.log("Résultat : Admis");
+        } else {
+            console.log("Résultat : Ajourné");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 4</title>
+</head>
+<body>
+    <h1>Exercice 4 : Interaction Utilisateur</h1>
+    <script>
+        let nom = prompt("Quel est votre nom ?");
+        let ageUtilisateur = prompt("Quel est votre âge ?");
+        let anneeActuelle = 2026;
+        let anneeNaissance = anneeActuelle - parseInt(ageUtilisateur);
+
+        let message = "Bonjour " + nom + " ! Vous êtes né(e) environ en " + anneeNaissance + ".";
+        alert(message);
+        console.log(message);
+    </script>
+</body>
+</html>
