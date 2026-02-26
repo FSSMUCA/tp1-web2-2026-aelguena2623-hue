@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 5</title>
+</head>
+<body>
+    <h1 id="monTitre">Ancien Titre</h1>
+    <p id="monParagraphe">Ceci est un paragraphe de test.</p>
+
+    <script>
+        let titre = document.getElementById("monTitre");
+        let paragraphe = document.getElementById("monParagraphe");
+
+        titre.innerText = "Bienvenue dans le monde du DOM !";
+        titre.style.color = "blue";
+        titre.style.textAlign = "center";
+
+        paragraphe.style.fontSize = "22px";
+        paragraphe.style.backgroundColor = "#f0f0f0";
+    </script>
+</body>
+</html>

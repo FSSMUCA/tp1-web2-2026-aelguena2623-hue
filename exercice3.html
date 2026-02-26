@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 3</title>
+</head>
+<body>
+    <h1>Exercice 3 : Calcul de TVA</h1>
+    <script>
+        const TAUX_TVA = 0.20;
+        let prixHT = 100;
+        let prixTTC = prixHT + (prixHT * TAUX_TVA);
+
+        console.log("Prix Hors Taxe (HT) :", prixHT, "DH");
+        console.log("Taux de TVA :", (TAUX_TVA * 100) + "%");
+        console.log("Prix Toutes Taxes Comprises (TTC) :", prixTTC, "DH");
+    </script>
+</body>
+</html>
